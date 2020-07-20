@@ -238,24 +238,24 @@ p {
 	z-index: 9;
 }
 
-.navbar .navbar-brand {
+.navbar .logo {
 	padding: 0;
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
 
-.navbar-nav .nav-item a {
+.main_manu .manu_items a {
 	font-size: 20px;
 	color: #fff;
 	text-transform: capitalize;
 	padding-left: 56px;
 }
 
-.navbar-nav .nav-item a.active {
+.main_manu .manu_items a.active {
 	color: #b7c5a9;
 }
 
-.navbar-nav .nav-item a:hover {
+.main_manu .manu_items a:hover {
 	color: #b7c5a9;
 }
 
