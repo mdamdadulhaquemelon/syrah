@@ -1,0 +1,682 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* offer */
+	.offer_area .section_title h2::after {
+		left: 48%;
+	}
+
+	.update_area .section_title h2::after {
+		left: 68%;
+	}
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* Story */
+	.story_area .section_title h2::after {
+		left: 40%;
+	}
+
+	/* product */
+	.product_area .section_title.full_sec h2::before {
+		right: 64%;
+	}
+
+	.product_area .section_title.full_sec h2::after {
+
+		left: 64%;
+	}
+
+	/* offer */
+	.offer_area .section_title h2::after {
+		left: 57%;
+	}
+
+	/* event */
+	.event_area .section_title.full_sec h2::before {
+		right: 67%;
+	}
+
+	.event_area .section_title.full_sec h2::after {
+		left: 67%;
+	}
+
+	/* update */
+	.update_area .section_title h2::after {
+		left: 83%;
+		width: 60px;
+	}
+
+	/*======================
+    Index Page Css
+========================*/
+
+
+	/*======================
+  Our-Story Page Css
+========================*/
+
+
+	/*======================
+  Contact-Page Css
+========================*/
+	.contact_info_wrap {
+		position: static;
+	}
+
+	.single_cont_info h3::after {
+		width: 55px;
+		left: 51%;
+	}
+
+	.contact_area .left_image {
+		margin-top: 20px;
+	}
+
+	.contact_area .contuct_form {
+		margin-top: 20px;
+		position: static;
+	}
+
+	.contuct_form form textarea {
+		height: 297px;
+		resize: none;
+		padding-bottom: 0;
+	}
+
+	.contuct_form .contuct_inner .section_title h2::after {
+		left: 53%;
+	}
+
+	.single_cont_info h3::before {
+		display: none;
+	}
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* manubar */
+	.navbar-nav .nav-item a {
+		padding-left: 0;
+	}
+
+	.navbar-nav.navbar_active {
+		margin-top: 15px;
+		background: rgba(255, 255, 255, 0.95);
+	}
+
+	.navbar-nav.navbar_active .nav-item a {
+		text-align: left;
+		padding: 15px 0;
+		padding-left: 15px;
+		display: block;
+		border-bottom: 1px solid #1d2228;
+		background: #fff;
+		color: #1d2228;
+		transition: all .4s linear;
+		-webkit-transition: all .4s linear;
+		-moz-transition: all .4s linear;
+		-ms-transition: all .4s linear;
+		-o-transition: all .4s linear;
+	}
+
+	.navbar-nav.navbar_active .nav-item:hover a {
+		background: #1d2228;
+		color: #fff;
+	}
+
+	.navbar-nav.navbar_active .nav-item a.active {
+		background: #1d2228;
+		color: #fff;
+	}
+
+	/* banner */
+	.banner_image {
+		display: none;
+	}
+
+	/* Story */
+	.story_area .section_title.full_sec h2::before {
+		right: 65%;
+	}
+
+	.story_area .section_title.full_sec h2::after {
+		left: 65%;
+	}
+
+	/* product */
+	.product_area .section_title.full_sec h2::before {
+		right: 68%;
+	}
+
+	.product_area .section_title.full_sec h2::after {
+
+		left: 68%;
+	}
+
+	/* event */
+	.event_area .section_title.full_sec h2::before {
+		right: 73%;
+	}
+
+	.event_area .section_title.full_sec h2::after {
+		left: 73%;
+	}
+
+	/* offer */
+	.offer_area .section_title.full_sec h2::before {
+		width: 75px;
+		right: 90%;
+	}
+
+	.offer_area .section_title.full_sec h2::after {
+
+		width: 75px;
+		left: 90%;
+	}
+
+	.offset-0 {
+		margin-left: 0;
+	}
+
+	.single_event .event_bdr {
+		padding: 64px 0 46px 0;
+	}
+
+	.single_event .event_bdr .event_cont p {
+		padding-top: 17px;
+	}
+
+	.offer_area .offer_image img {
+		left: -17%;
+	}
+
+	/* footer */
+	.news_letter form input {
+		width: 90%;
+	}
+
+	/*======================
+    Our-Story Page Css
+========================*/
+	.achievement_cont ul li {
+		margin-right: 0;
+	}
+
+	.achieve_area .section_title {
+		margin-top: 30px;
+	}
+
+	/*======================
+     Contact-Page Css
+========================*/
+
+
+	.contuct_form .contuct_inner .section_title h2::after {
+		left: 70%;
+	}
+
+	.contact_info_wrap {
+		position: static;
+	}
+
+	.single_cont_info h3::after {
+		width: 55px;
+		left: 51%;
+	}
+
+	.contact_area .left_image {
+		margin-top: 20px;
+	}
+
+	.contact_area .contuct_form {
+		margin-top: 20px;
+		position: static;
+	}
+
+	.contuct_form form textarea {
+		height: 76px;
+		resize: none;
+		padding-bottom: 0;
+	}
+
+	.single_cont_info h3::before {
+		display: none;
+	}
+
+	/*======================
+    Error-Page Css
+========================*/
+
+	/*======================
+      Blog-Details-Page Css
+========================*/
+
+}
+
+/* small mobile :320px. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* manubar */
+	.navbar-nav .nav-item a {
+		padding-left: 0;
+	}
+
+	.navbar-nav.navbar_active {
+		margin-top: 15px;
+		background: rgba(255, 255, 255, 0.95);
+	}
+
+	.navbar-nav.navbar_active .nav-item a {
+		text-align: left;
+		padding: 15px 0;
+		padding-left: 15px;
+		display: block;
+		border-bottom: 1px solid #1d2228;
+		background: #fff;
+		color: #1d2228;
+		transition: all .4s linear;
+		-webkit-transition: all .4s linear;
+		-moz-transition: all .4s linear;
+		-ms-transition: all .4s linear;
+		-o-transition: all .4s linear;
+	}
+
+	.navbar-nav.navbar_active .nav-item:hover a {
+		background: #1d2228;
+		color: #fff;
+	}
+
+	.navbar-nav.navbar_active .nav-item a.active {
+		background: #1d2228;
+		color: #fff;
+	}
+
+	/* Story */
+	.story_area .section_title.full_sec h2::before {
+		right: 70%;
+	}
+
+	.story_area .section_title.full_sec h2::after {
+		left: 70%;
+	}
+
+	/* product */
+	.product_area .section_title.full_sec h2::before {
+		right: 73%;
+	}
+
+	.product_area .section_title.full_sec h2::after {
+		left: 73%;
+	}
+
+	/* offer */
+	.offer_area .section_title.full_sec h2::before {
+		width: 75px;
+		right: 80%;
+	}
+
+	.offer_area .section_title.full_sec h2::after {
+
+		width: 75px;
+		left: 80%;
+	}
+
+	/* event */
+	.event_area .section_title.full_sec h2::before {
+		right: 80%;
+		width: 95px;
+	}
+
+	.event_area .section_title.full_sec h2::after {
+		left: 80%;
+		width: 95px;
+	}
+
+	.offset-0 {
+		margin-left: 0;
+	}
+
+	.single_event .event_bg img {
+		height: 90%;
+	}
+
+	/* offer */
+	.offer_content {
+		padding-top: 30px;
+	}
+
+	/* update */
+	.update_area .section_title h2::after {
+		left: 48%;
+	}
+
+	/*======================
+    Our-Story Page Css
+========================*/
+	.achievement_cont ul li {
+		margin-right: 0;
+	}
+
+	.achieve_area .section_title.full_sec {
+		margin-top: 30px;
+	}
+
+	.achieve_area .section_title.full_sec h2::after {
+		width: 80px;
+		left: 77%;
+	}
+
+	.achieve_area .section_title.full_sec h2::before {
+		width: 80px;
+		right: 77%;
+	}
+
+	/*======================
+  Contact-Page Css
+========================*/
+	.contact_info_wrap {
+		position: static;
+		text-align: center;
+	}
+
+	.contuct_form .contuct_inner .section_title h2::after {
+		left: 62%;
+	}
+
+	.contact_area .left_image {
+		display: none;
+	}
+
+	.single_cont_info h3::after {
+		width: 70px;
+		left: 60%;
+	}
+
+	.single_cont_info h3::before {
+		width: 70px;
+		right: 66%;
+	}
+
+	.contact_area .contuct_form {
+		position: static;
+		margin-top: 25px;
+	}
+
+	.single_cont_info h3::before {
+		display: block;
+	}
+
+
+	/*======================
+  Error-Page Css
+========================*/
+
+	/*======================
+      Blog-Details-Page Css
+========================*/
+	.blog_update_date p a {
+		padding-left: 5px;
+		font-size: 14px;
+	}
+
+	.blog_details_color_text {
+		padding: 30px 25px;
+	}
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 575.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* manubar */
+	.navbar-nav .nav-item a {
+		padding-left: 0;
+	}
+
+	.navbar-nav.navbar_active {
+		margin-top: 15px;
+		background: rgba(255, 255, 255, 0.95);
+	}
+
+	.navbar-nav.navbar_active .nav-item a {
+		text-align: left;
+		padding: 15px 0;
+		padding-left: 15px;
+		display: block;
+		border-bottom: 1px solid #1d2228;
+		background: #fff;
+		color: #1d2228;
+		transition: all .4s linear;
+		-webkit-transition: all .4s linear;
+		-moz-transition: all .4s linear;
+		-ms-transition: all .4s linear;
+		-o-transition: all .4s linear;
+	}
+
+	.navbar-nav.navbar_active .nav-item:hover a {
+		background: #1d2228;
+		color: #fff;
+	}
+
+	.navbar-nav.navbar_active .nav-item a.active {
+		background: #1d2228;
+		color: #fff;
+	}
+
+	/* Story */
+	.section_title.full_sec h2::before {
+		right: 80%;
+		width: 60px;
+	}
+
+	.section_title.full_sec h2::after {
+		left: 80%;
+		width: 60px;
+	}
+
+	/* product */
+	.product_area .section_title.full_sec h2::before {
+		right: 87%;
+		width: 41px;
+	}
+
+	.product_area .section_title.full_sec h2::after {
+		width: 41px;
+		left: 87%;
+	}
+
+	/* event */
+	.event_area .section_title.full_sec h2::before {
+		display: none;
+	}
+
+	.event_area .section_title.full_sec h2::after {
+		left: 50%;
+		width: 168px;
+		top: 100%;
+		transform: translateX(-50%);
+	}
+
+	.offset-0 {
+		margin-left: 0;
+	}
+
+	.single_event .event_bg img {
+		height: 90%;
+	}
+
+
+	/* offer */
+	.offer_area .section_title.full_sec h2::before {
+		display: none;
+	}
+
+	.offer_area .section_title.full_sec h2::after {
+		left: 50%;
+		width: 168px;
+		top: 100%;
+		transform: translateX(-50%);
+	}
+	.offer_content {
+		padding-top: 30px;
+	}
+
+	.offer_content .count_down_clock::after,
+	.offer_content .count_down_clock::before {
+		display: none;
+	}
+
+	.offer_content .count_down_clock .single_count {
+		border-bottom: 1px solid #ddd;
+	}
+
+	/* update */
+	.update_area .section_title h2::after {
+		left: 81%;
+		width: 60px;
+	}
+
+	/* copyright */
+	.copyright_text {
+		text-align: center;
+	}
+
+	.social_nav {
+		text-align: center;
+	}
+
+	/*======================
+    Our-Story Page Css
+========================*/
+	.achievement_cont ul li {
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.achieve_area .section_title.full_sec {
+		margin-top: 30px;
+	}
+
+	.achieve_area .section_title.full_sec h2::after {
+		width: 70px;
+		left: 75%;
+	}
+
+	.achieve_area .section_title.full_sec h2::before {
+		width: 70px;
+		right: 75%;
+	}
+
+	.achievement_cont ul li .achieve_icon {
+		display: inline-block;
+		margin-bottom: 25px;
+	}
+
+	/*======================
+    Product Page Css
+========================*/
+	.pagination_area ul li a {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	/*======================
+  Contact-Page Css
+========================*/
+	.contact_area .left_image {
+		display: none;
+	}
+
+	.contact_area .contuct_form {
+		position: static;
+	}
+
+	.contact_info_wrap {
+		position: static;
+		text-align: center;
+	}
+
+	.contuct_form .contuct_inner .section_title.full_sec {
+		margin-top: 25px;
+	}
+
+	.contuct_form .contuct_inner .section_title.full_sec h2::after {
+		width: 50px;
+		left: 80%;
+	}
+
+	.contuct_form .contuct_inner .section_title.full_sec h2::before {
+		width: 50px;
+		right: 80%;
+	}
+
+	.single_cont_info h3::after {
+		width: 70px;
+		left: 60%;
+	}
+
+	.single_cont_info h3::before {
+		width: 70px;
+		right: 66%;
+	}
+
+	.single_cont_info h3::before {
+		display: block;
+	}
+
+	/*======================
+      Blog-Details-Page Css
+========================*/
+	.blog_update_date p a {
+		padding-left: 5px;
+		font-size: 14px;
+	}
+
+	.blog_details_color_text {
+		padding: 30px 25px;
+	}
+
+	/*======================
+  Error-Page Css
+========================*/
+	.error_text_left {
+		margin-top: 106px;
+		text-align: left;
+	}
+
+	.error_text_right h3 {
+		margin-left: 0;
+	}
+
+	.error_text_right p {
+		margin-left: 0;
+	}
+
+	.error_text_left .error_btn {
+		position: absolute;
+		top: 225px;
+		left: 77px;
+	}
+}
